@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a16dfc-b0de-4dce-9581-bca7ce1bed1b" name="Changes" comment="Added TerminalColor enum class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CellAttributes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Style.kt" afterDir="false" />
+    <list default="true" id="73a16dfc-b0de-4dce-9581-bca7ce1bed1b" name="Changes" comment="Added CellAttributes data class and Style enum class">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CursorPos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TerminalCell.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Style.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Style.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TerminalBuffer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TerminalBuffer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TerminalColor.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -96,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773511923828</updated>
       <workItem from="1773511927917" duration="2709000" />
-      <workItem from="1773572728655" duration="446000" />
+      <workItem from="1773572728655" duration="2424000" />
     </task>
     <task id="LOCAL-00001" summary="Created README.md">
       <option name="closed" value="true" />
@@ -130,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773572957504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added CellAttributes data class and Style enum class">
+      <option name="closed" value="true" />
+      <created>1773573205025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773573205025</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +152,7 @@
     <MESSAGE value="Created README.md" />
     <MESSAGE value="Refactoring main class" />
     <MESSAGE value="Added TerminalColor enum class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TerminalColor enum class" />
+    <MESSAGE value="Added CellAttributes data class and Style enum class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CellAttributes data class and Style enum class" />
   </component>
 </project>
