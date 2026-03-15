@@ -3,10 +3,10 @@
 This is a task for JetBrains Internship 2026.
 
 # TODO
-- [ ] Character cell style
-    - [ ] Foreground color
-    - [ ] Background color
-    - [ ] Style flags
+- [x] Character cell style
+    - [x] Foreground color
+    - [x] Background color
+    - [x] Style flags
 - [ ] Screen
 - [ ] Scrollback
 - [ ] TerminalBuffer class
