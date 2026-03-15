@@ -8,11 +8,12 @@ enum class CellKind { Empty, Normal }
 
 data class TerminalCell(
     var text: String? = null,
-    var attributes: CellAttributes = CellAttributes()
+    var attributes: CellAttributes = CellAttributes(),
+    var kind: CellKind = CellKind.Empty
 )
 {
     fun displayText(): String {
-        return when (kind){
+        return when(kind){
             CellKind.Empty -> " "
             CellKind.Normal -> text ?: ""
         }

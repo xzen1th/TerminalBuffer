@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a16dfc-b0de-4dce-9581-bca7ce1bed1b" name="Changes" comment="updated README.md with detailed task list">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TerminalCell.kt" afterDir="false" />
+    <list default="true" id="73a16dfc-b0de-4dce-9581-bca7ce1bed1b" name="Changes" comment="Added cell kind property to class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/TerminalBuffer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TerminalBuffer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TerminalCell.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TerminalCell.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773511923828</updated>
       <workItem from="1773511927917" duration="2709000" />
-      <workItem from="1773572728655" duration="3973000" />
+      <workItem from="1773572728655" duration="5116000" />
     </task>
     <task id="LOCAL-00001" summary="Created README.md">
       <option name="closed" value="true" />
@@ -180,7 +179,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773576072203</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated README.md with task">
+      <option name="closed" value="true" />
+      <created>1773576746274</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1773576746274</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Terminal Cell class">
+      <option name="closed" value="true" />
+      <created>1773578132815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1773578132815</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +210,9 @@
     <MESSAGE value="Created class for style" />
     <MESSAGE value="enum class transferred to Style class" />
     <MESSAGE value="updated README.md with detailed task list" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated README.md with detailed task list" />
+    <MESSAGE value="updated README.md with task" />
+    <MESSAGE value="Added Terminal Cell class" />
+    <MESSAGE value="Added cell kind property to class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added cell kind property to class" />
   </component>
 </project>
