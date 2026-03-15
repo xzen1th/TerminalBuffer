@@ -7,6 +7,7 @@ This is a task for JetBrains Internship 2026.
     - [x] Foreground color
     - [x] Background color
     - [x] Style flags
+- [ ] Terminal Cell class
 - [ ] TerminalBuffer class
     - [ ] Screen
     - [ ] Scrollback
